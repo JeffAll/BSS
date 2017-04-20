@@ -1,0 +1,144 @@
+
+.container {
+  width:310px;
+}
+
+.box {
+  height:42px;
+  border-style: solid;
+  border-width: thin;
+  border-color:black;
+  margin-top:2px;
+  
+}
+
+.button {
+  position: relative;
+  background:white;
+  width:40px;
+  height:40px;
+  padding-top:7px;
+  padding-left:11px;
+  align-self: center;
+  vertical-align: center;
+  user-select: none;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.noselect {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.appendHover {
+  border-style:dashed;
+  border-width: thin;
+  border-color:forestgreen;
+  background-color:palegreen;
+  margin:2px;
+  height:30px;
+  cursor: pointer;
+}
+
+.center {
+  margin:auto;
+  width:1px;
+  font-size: 25px;
+  position:relative;
+  bottom:5px;
+  right:8px
+}
+
+.appendHover .center {
+  bottom:8px;
+}
+
+.greyText {
+  text-align: center;
+  background-color: lightgray;
+  padding:5px;
+  -webkit-text-fill-color: black;
+}
+
+.lightGreyText {
+  -webkit-text-fill-color: lightgray;
+}
+
+.text {
+  position:relative;
+  padding:0px;
+  font-size: 20px;
+  width:228px;
+  height:40px;
+  bottom:1px;
+  border-style:none;
+  padding-left:7px;
+}
+
+.moving {
+  background-color: cornflowerblue;
+  border-color:darkblue;
+  font-weight: bold;
+  color:white;
+  padding:5px;
+}
+
+.movingDefault {
+  padding:5px;
+}
+
+.x {
+  font-size: 25px;
+  color:darkred;
+}
+
+.xButton {
+  background-color: pink;
+}
+
+.orderButton {
+  background-color: paleturquoise;
+}
+
+.order {
+  font-size: 25px;
+  color:blue;
+}
+
+
+.movingPreview {
+  background-color: lightyellow;
+  border-style: dashed;
+  border-color: darkgoldenrod;
+  padding: 5px;
+  text-align: center;
+  color:darkgoldenrod;
+}
+
+.header {
+  padding-top: 6px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: forestgreen;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.movingPreview {
+  cursor: pointer;
+}
+
+body {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
